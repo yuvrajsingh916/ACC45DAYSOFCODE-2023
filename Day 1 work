@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+
+
+int main() {
+
+int X;
+
+
+printf ("Enter an amount of water");
+
+
+scanf ("%d",&X);
+
+
+if(X>=2000)
+{
+printf("YES");
+}
+else
+{
+printf("NO");
+}
+return 0;
+}
